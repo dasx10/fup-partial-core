@@ -1,0 +1,28 @@
+{
+  "name": "fup-partial-core",
+  "version": "1.0.0",
+  "description": "function",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "uglifyjs ./source.js -cmo ./index.js",
+    "upload": "npm run build & npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasx10/fup-partial-core.git"
+  },
+  "keywords": [
+    "function"
+  ],
+  "author": "Kleschev Yevhenii <dasx10@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dasx10/fup-partial-core/issues"
+  },
+  "homepage": "https://github.com/dasx10/fup-partial-core#readme",
+  "dependencies": {
+    "fup-tuple-consistent-type": "^1.0.1",
+    "fup-tuple-impact-type": "^1.0.0"
+  }
+}
